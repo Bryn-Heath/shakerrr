@@ -51,6 +51,6 @@ function motion(e) {
 	}
 }
 
-// window.addEventListener('devicemotion', function(event) {
-//    textToChange.innerText = "SHAKED";
-// });
+window.addEventListener('devicemotion', function(event) {
+   textToChange.innerText = "SHAKED";
+});
