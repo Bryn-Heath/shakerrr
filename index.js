@@ -1,10 +1,10 @@
   const textToChange = document.querySelector("h1")
 
-// document.addEventListener('DOMContentLoaded', init, false);
-// function init() {
-// 	console.log('Engage');
-// 	window.addEventListener('devicemotion', motion, false);
-// }
+document.addEventListener('DOMContentLoaded', init, false);
+function init() {
+	console.log('Engage');
+	window.addEventListener('devicemotion', motion, false);
+}
 
 let lastX, lastY, lastZ;
 let moveCounter = 0;
@@ -51,6 +51,6 @@ function motion(e) {
 	}
 }
 
-window.addEventListener('devicemotion', function(event) {
-   textToChange.innerText = "SHAKED";
-});
+// window.addEventListener('devicemotion', function(event) {
+//    textToChange.innerText = "SHAKED";
+// });
